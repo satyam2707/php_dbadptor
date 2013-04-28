@@ -83,7 +83,7 @@ interface DbAdapterInterface {
 	 @function  :where
 	 @params    :Array of conditions | String of prepared condtions
 	*/
-	public function where($cond);
+	public function where($cond=null);
 	
 	/*
 	 @function  :orWhere
